@@ -1,0 +1,8 @@
+.vscode
+__pycache__
+assets/python
+images
+app.py
+*.png
+*.xml
+*.txt

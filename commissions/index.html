@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+<!--
+	Multiverse by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>@dylarts_ Art Gallery</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="poison.css" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<script type="text/javascript" src = "calculations.js"></script>
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+
+
+		<script>
+			function unhide() {
+    var hid = document.getElementsByClassName("exp");
+    // Emulates jQuery $(element).is(':hidden');
+    if(hid[0].offsetWidth > 0 && hid[0].offsetHeight > 0) {
+        hid[0].style.visibility = "visible";
+    }
+}
+		</script>
+
+<style>
+	.exp{visibility: hidden;}
+	</style>
+
+	
+
+
+	</head>
+
+
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="https://twitter.com/dylarts_" target="_blank"><strong>@dylarts_</strong></a></h1>
+						<nav>
+							<ul>
+								<li><a href="#footer" class="icon solid fa-info-circle">About</a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+
+        <h1 class="comishh1">Pricing/TOS</h1>
+
+		
+		<button onclick="unhide()" class="joebutton">TOS and PRICING</button>
+
+
+		<div class="exp">
+    <h2>Terms of Service</h2>
+  
+    <div class="boxxer">
+      <h3>Payment</h3>
+
+      Commissions may be payed 50% of the final cost initially if requested. After the sketch is completed, you are free to give feedback. At this time, 50% will be due. The final piece will be on hold until the payment is received. (This does not apply to sketch commissions.)</p>
+
+      <p>Refunds will not be applicable unless stated otherwise by the artist.</p>
+
+      <p>Commissions may take up either 2 days up to a week. This may vary due to school and other disturbances. The artist will let you know if there is a known delay or if you are on a waitlist.</p>
+
+      <h3>Guidelines</h3>
+
+      <p>The artist has the right to watermark the final piece for upload onto social media sites, unless stated otherwise by commissioner.</p>
+      <p>If the commissioner asks for offensive and/or foul content, their commission will be cancelled and be blacklisted. This includes but is not limited to: racism, pedophilia, sexism, zoophilia, and hate towards the LGBTQIA+ community.</p>
+      <p>You must NOT claim the artist's work as your own as well as edit it (unless given permission). If this rule is broken, you will be added to my blacklist.</p>
+      <p>Payments will be sent to given PayPal in USD.</p>
+      <p>If you commission a full-body commission, a ref sheet will be needed. This may be worked around if sufficient references are given.</p>
+   
+	</div>
+
+
+	<div class="calcu">
+		<select id="classSelect" onchange="calculate()">
+			<option value="0">Select Art Type</option>
+			<option value="1.56">Sketch</option>
+			<option value="4">Flat + Soft Shaded</option>
+			<option value="5">Full Illustration</option>
+		</select>
+		
+		<select id="size" onchange="calculate()">
+			<option value="0">Choose Size</option>
+			<option value="8">Headshot</option>
+			<option value="11">Waist</option>
+			<option value="16">Fullbody</option>
+		</select>
+		</div>
+		
+		<div id="zerodivide">
+		<h3 style="text-align: center;" class="h1money">$0</h3>
+		</div>
+				
+          <img src="../images/pricing.webp" class="imgpricing">
+
+		</div> 
+
+
+
+
+
+
+		</div>
+
+
+
+
+
+				<!-- Footer -->
+					<footer id="footer" class="panel">
+						<div class="inner split">
+							<div>
+								<section>
+									<h2>@dylarts_</h2>
+									<p> 19 | he/him | art & games i guess | please do not use my artwork without permission and credit </p>
+								</section>
+
+                <section>
+									<h2><a href="../index.html" target="">• Home</a></h2>
+									
+								</section>
+
+								<section>
+									<h2><a href="./commissions/index.html" target="">• Pricing and TOS</a></h2>
+									
+								</section>
+
+								<section>
+									<h2>Follow me on ...</h2>
+									<ul class="icons">
+										<li><a href="https://twitter.com/dylarts_" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+										<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+										<li><a href="https://www.instagram.com/dylarts_/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+										<li><a href="https://www.youtube.com/channel/UC9Odi7qGXrTiZvPYEWq6DpQ" class="icon brands fa-youtube"  target="_blank"><span class="label">Youtube</span></a></li>
+										<!-- <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+										<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li> -->
+									</ul>
+								</section>
+								<p class="copyright">
+									&copy; Multiverse. Design: <a href="https://html5up.net">HTML5 UP</a>.
+								</p>
+							</div>
+							<div>
+								<section>
+									<h2>Get in touch</h2>
+									<form method="post" action="https://formspree.io/f/mrgrodwk">
+										<div class="fields">
+											<div class="field half">
+												<input type="text" name="_replyto" id="email" placeholder="Email" />
+											</div>
+											<div class="field">
+												<textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+							</div>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.poptrox.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>
